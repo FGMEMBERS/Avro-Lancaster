@@ -70,12 +70,23 @@
     </offsets>
   </model>
 
+  <!-- R1155 -->
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/r1155/r1155.xml</path>
     <offsets>
       <x-m> -6.203 </x-m>
       <y-m> -0.329 </y-m>
       <z-m>  0.784 </z-m>
+    </offsets>
+  </model>
+
+  <!-- T1154 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/t1154/t1154.xml</path>
+    <offsets>
+      <x-m> -6.203 </x-m>
+      <y-m> -0.328 </y-m>
+      <z-m>  0.958 </z-m>
     </offsets>
   </model>
 
