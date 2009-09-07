@@ -547,7 +547,7 @@
     <type>rotate</type>
     <object-name>voletGI</object-name>
     <property>/surface-positions/flap-pos-norm</property>
-    <factor> 40 </factor>
+    <factor> -40 </factor>
     <axis>
       <x1-m> -1.075 </x1-m>
       <y1-m> -4.357 </y1-m>
@@ -562,7 +562,7 @@
     <type>rotate</type>
     <object-name>voletDI</object-name>
     <property>/surface-positions/flap-pos-norm</property>
-    <factor> 40 </factor>
+    <factor> -40 </factor>
     <axis>
       <x1-m> -1.075 </x1-m>
       <y1-m>  0.937 </y1-m>
@@ -577,7 +577,7 @@
     <type>rotate</type>
     <object-name>voletGE</object-name>
     <property>/surface-positions/flap-pos-norm</property>
-    <factor> 40 </factor>
+    <factor> -40 </factor>
     <axis>
       <x1-m> -1.355 </x1-m>
       <y1-m> -7.976 </y1-m>
@@ -592,7 +592,7 @@
     <type>rotate</type>
     <object-name>voletDE</object-name>
     <property>/surface-positions/flap-pos-norm</property>
-    <factor> 40 </factor>
+    <factor> -40 </factor>
     <axis>
       <x1-m> -1.075 </x1-m>
       <y1-m>  4.357 </y1-m>
