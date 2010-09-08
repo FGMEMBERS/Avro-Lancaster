@@ -7,8 +7,8 @@
      Envergure    : 31.09 m  (102 ft )
      Longueur     : 21.18 m  ( 69 ft 5 in )
      Hauteur      :  5.97 m  ( 19 ft 7 in )
-     Masse à vide : 16705 kg  (36 828 lb )
-     Moteur       : 4 × Rolls-Royce Merlin XX V12 engines, 1280 hp each
+     Masse a vide : 16705 kg  (36 828 lb )
+     Moteur       : 4 Rolls-Royce Merlin XX V12 engines, 1280 hp each
      Vitesse max  : 450 km/h (240 kt) at 15000 ft (5600 m)
 -->
 
@@ -39,7 +39,7 @@
       <control-setting axis="/controls/gear/gear-down" value="1"/>
     </approach>
 
-    <cruise speed="200" alt="15000" fuel="0.7">
+    <cruise speed="200" alt="15000" fuel="0.5">
       <control-setting axis="/controls/engines/engine[0]/throttle" value="0.7"/>
       <control-setting axis="/controls/engines/engine[1]/throttle" value="0.7"/>
       <control-setting axis="/controls/engines/engine[2]/throttle" value="0.7"/>
@@ -67,65 +67,72 @@
     <cockpit x="7.876" y="0.231" z="1.477"/>
 
     <!-- Fuselage -->
-    <fuselage ax="11.075"  ay="0" az="0.272" bx="-10.967" by="0" bz="0.272" width="2.117" taper="0.9" midpoint="0.7"/>
+    <fuselage ax="11.075"  ay="0" az="0.272" bx="-10.967" by="0" bz="0.272" width="2.667" taper="0.9" midpoint="0.7"/>
 
-    <!-- Wing -->
-    <wing x="2.539" y="0.903" z="0.423"
-          chord="4.937"
-          length="14.593"
-          taper="0.50"
-          sweep="2"
-          dihedral="4"
-          camber="0.15">
-          <stall aoa="9" width="8" peak="3.5"/>
-          <flap0 start="0.023" end="0.527" lift="1.8" drag="1.6"/>
-          <flap1 start="0.536" end="0.925" lift="1.6" drag="1.1"/>
+<!-- Wing -->
+<wing x="2.539" y="0.903" z="0.423"
+chord="6.33"
+length="14.0"
+taper="0.45"
+sweep="2"
+dihedral="6"
+camber="0.15">
+<stall aoa="9" width="8" peak="3.5"/>
+<flap0 start="0.023" end="0.527" lift="1.8" drag="1.6"/>
+<flap1 start="0.536" end="0.925" lift="1.6" drag="1.1"/>
 
-          <control-input axis="/controls/flight/flaps" control="FLAP0" invert="true"/>
-          <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
-          <control-input axis="/controls/flight/aileron-trim" control="FLAP1" split="true"/>
+<control-input axis="/controls/flight/flaps" control="FLAP0" invert="true"/>
+<control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
+<control-input axis="/controls/flight/aileron-trim" control="FLAP1" split="true"/>
 
-          <control-output control="FLAP0" prop="/surface-positions/flap-pos-norm"/>
-          <control-output control="FLAP1" side="left" prop="/surface-positions/left-aileron-pos-norm"/>
-          <control-output control="FLAP1" side="right" prop="/surface-positions/right-aileron-pos-norm"/>
+<control-output control="FLAP0" prop="/surface-positions/flap-pos-norm"/>
+<control-output control="FLAP1" side="left" prop="/surface-positions/left-aileron-pos-norm"/>
+<control-output control="FLAP1" side="right" prop="/surface-positions/right-aileron-pos-norm"/>
 
-          <control-speed control="FLAP0" transition-time="5"/>
-    </wing>
+<control-speed control="FLAP0" transition-time="5"/>
+</wing>
+
+
 
     <!-- Elevator -->
-    <hstab x="-8.678" y="0.504" z="0.401"
-           chord="2.536"
-           length="4.376"
-           taper="0.74">
-           <stall aoa="11" width="6" peak="1.5"/>
-           <flap0 start="0" end="0.95" lift="2.1" drag="2.3"/>
+<hstab x="-8.678" y="0.504" z="0.401"
+chord="3.33"
+length="5.66"
+taper="0.75">
+<stall aoa="11" width="6" peak="1.5"/>
+<flap0 start="0" end="0.35" lift="1.5" drag="2.3"/>
 
-           <control-input axis="/controls/flight/elevator" control="FLAP0"/>
-           <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
+<control-input axis="/controls/flight/elevator" control="FLAP0"/>
+<control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
 
-           <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
-    </hstab>
+<control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
+<control-speed control="FLAP0" transition-time="1.9"/>
+</hstab>
 
-    <!-- Ruder -->
-    <vstab x="-8.301" y="4.869" z="-0.653"
-           chord="2.005"
-           length="3.656"
-           taper="1">
-           <stall aoa="14" width="4" peak="1.5"/>
-           <flap0 start="0" end="1" lift="1.7" drag="1.5"/>
 
-           <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
-           <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
 
-           <control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm"/>
-    </vstab>
+   <!-- Ruder -->
+<vstab x="-8.301" y="4.869" z="-0.653"
+chord="2.1"
+length="4.35"
+taper="1">
+<stall aoa="14" width="4" peak="1.5"/>
+<flap0 start="0" end="1" lift="1.7" drag="1.5"/>
 
-    <vstab x="-8.301" y="-4.869" z="-0.653"
-           chord="2.005"
-           length="3.656"
-           taper="1">
-           <stall aoa="14" width="4" peak="1.5"/>
-           <flap0 start="0" end="1" lift="1.7" drag="1.5"/>
+<control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
+<control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
+
+<control-output control="FLAP0" prop="/surface-positions/rudder-pos-norm"/>
+</vstab>
+
+<vstab x="-8.301" y="-4.869" z="-0.653"
+chord="2.1"
+length="4.35"
+taper="1">
+<stall aoa="14" width="4" peak="1.5"/>
+<flap0 start="0" end="1" lift="1.7" drag="1.5"/>
+
+
 
            <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
            <control-input axis="/controls/flight/rudder-trim" control="FLAP0" invert="true"/>
@@ -136,7 +143,7 @@
   <!-- Engines   source            : http://en.wikipedia.org/wiki/Rolls-Royce_Merlin
 
                  name              : Rolls-Royce Merlin
-                 type              : 12-cylinder, supercharged, liquid-cooled, 60 degré "Vee", piston aircraft engine
+                 type              : 12-cylinder, supercharged, liquid-cooled, 60 degre "Vee", piston aircraft engine
                  power cruise      : 2000 hp at 3000 rpm at 5250 ft.1860 hp at 3000 rpm at 11000 ft
                  Compression ratio : 6:1
                  weight            : 746.5 kg (645 lb )
@@ -147,7 +154,7 @@
     <propeller x="5.552" y="7.787" z="0.144"
                mass="645"
                moment="40"
-               radius="1.93"
+               radius="2.35"
                min-rpm="250" max-rpm="3000"
                cruise-speed="200"
                cruise-rpm="2800"
@@ -170,13 +177,13 @@
     <propeller x="5.552" y="3.506" z="-0.166"
                mass="645"
                moment="40"
-               radius="1.93"
+               radius="2.35"
                min-rpm="250" max-rpm="3000"
                cruise-speed="200"
                cruise-rpm="2800"
                cruise-power="1860"
                cruise-alt="15000">
-               <actionpt x="7.249" y="3.506" z="0.173"/>
+               <actionpt x="7.413" y="3.506" z="0.173"/>
                <control-input axis="/controls/engines/engine[1]/propeller-pitch" control="ADVANCE"/>
                <piston-engine eng-power="2000" 
                               eng-rpm="3000"
@@ -193,13 +200,13 @@
     <propeller x="5.552" y="-3.506" z="-0.166"
                mass="645"
                moment="40"
-               radius="1.93"
+               radius="2.35"
                min-rpm="250" max-rpm="3000"
                cruise-speed="200"
                cruise-rpm="2800"
                cruise-power="1860"
                cruise-alt="15000">
-               <actionpt x="7.249" y="-3.506" z="0.173"/>
+               <actionpt x="7.413" y="-3.506" z="0.173"/>
                <control-input axis="/controls/engines/engine[2]/propeller-pitch" control="ADVANCE"/>
                <piston-engine eng-power="2000" 
                               eng-rpm="3000"
@@ -216,7 +223,7 @@
     <propeller x="5.552" y="-7.787" z="0.144"
                mass="645"
                moment="40"
-               radius="1.93"
+               radius="2.35"
                min-rpm="250" max-rpm="3000"
                cruise-speed="200"
                cruise-rpm="2800"
@@ -236,7 +243,7 @@
     </propeller>
 
     <!-- Left wheel -->
-    <gear x="5.452" y="3.148" z="-3.125"
+    <gear x="4.599" y="3.513" z="-2.980"
           compression=".2"
           retract-time="5"
           spring="3.0"
@@ -251,7 +258,7 @@
     </gear>
 
     <!-- Right wheel -->
-    <gear x="5.452" y="-3.148" z="-3.125"
+    <gear x="4.599" y="-3.513" z="-2.980"
           compression=".2"
           retract-time="5"
           spring="3.0"
@@ -266,7 +273,7 @@
     </gear>
 
     <!-- Tail wheel -->
-    <gear x="-5.986" y="0.000" z="-1.679"
+    <gear x="-8.033" y="0.000" z="-1.148"
           compression=".2"
           retract-time="5"
           spring="1.0"
@@ -280,9 +287,10 @@
     <tank x="2.466" y="4.817" z="0.436" capacity="2000"/>
     <tank x="2.466" y="-4.817" z="0.436" capacity="2000"/>
 
-    <!-- CG Théorique : x=2.539 y=0.0 z=-0.423" -->
+    <!-- CG Theorique : x=5.539 y=0.0 z=-0.423" -->
     <ballast x="6" y="0.0" z="-5" mass="7000"/>
     <ballast x="-7.5" y="0" z="0" mass="-2000"/>
 
 </airplane>
+
 

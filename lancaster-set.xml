@@ -4,8 +4,19 @@
 <PropertyList include="lancaster-yasim-cnf.xml">
 
   <sim>
+
     <description>Avro Lancaster</description>
     <author>BARANGER Emmanuel</author>
+<systems>
+      <electrical>
+        <path>Aircraft/Generic/generic-electrical.xml</path>
+      </electrical>
+      <autopilot>
+        <path>Aircraft/Avro-Lancaster/System/lanc-autopilot.xml</path>
+      </autopilot>
+    </systems>
+
+
   </sim>
 
 </PropertyList>
