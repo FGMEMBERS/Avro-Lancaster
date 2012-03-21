@@ -5,17 +5,15 @@
 
   <sim>
 
-    <description>Avro Lancaster</description>
+    <description>Avro Lancaster (YASim)</description>
     <author>BARANGER Emmanuel</author>
-<systems>
-      <electrical>
-        <path>Aircraft/Generic/generic-electrical.xml</path>
-      </electrical>
-      <autopilot>
-        <path>Aircraft/Avro-Lancaster/System/lanc-autopilot.xml</path>
-      </autopilot>
-    </systems>
 
+    <rating>
+      <FDM type="int">     2 </FDM>
+      <systems type="int"> 1 </systems>
+      <cockpit type="int"> 1 </cockpit>
+      <model type="int">   4 </model>
+    </rating>
 
   </sim>
 
