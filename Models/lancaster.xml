@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="ISO-8859-1"?> 
 
 <PropertyList>
 
@@ -144,19 +144,6 @@
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-<!--
-    <diffuse>
-      <red-prop>diffuse/red</red-prop>
-      <green-prop>diffuse/green</green-prop>
-      <blue-prop>diffuse/blue</blue-prop>
-    </diffuse>
-
-    <ambient>
-      <red-prop>ambient/red</red-prop>
-      <green-prop>ambient/green</green-prop>
-      <blue-prop>ambient/blue</blue-prop>
-    </ambient>
--->
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
@@ -168,11 +155,6 @@
       <green-prop>emission/green</green-prop>
       <blue-prop>emission/blue</blue-prop>
     </emission>
-<!--
-    <shininess>
-      <shininess-prop>shininess</shininess-prop>
-    </shininess>
--->
   </animation>
 
   <effect>
@@ -314,18 +296,18 @@
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingLE.xml</path>
     <offsets>
-      <x-m>  -6.547 </x-m>
-      <y-m> -15.705 </y-m>
-      <z-m>   0.683 </z-m>
+      <x-m> -4.85616 </x-m>
+      <y-m> -8.38876 </y-m>
+      <z-m>  0.43596 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingLE.xml</path>
     <offsets>
-      <x-m>  -6.547 </x-m>
-      <y-m> -13.452 </y-m>
-      <z-m>   0.683 </z-m>
+      <x-m> -4.85615 </x-m>
+      <y-m> -7.18546 </y-m>
+      <z-m>  0.43596 </z-m>
     </offsets>
   </model>
 
@@ -333,18 +315,18 @@
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingLI.xml</path>
     <offsets>
-      <x-m> -7.391 </x-m>
-      <y-m> -7.690 </y-m>
-      <z-m>  0.190 </z-m>
+      <x-m> -5.30694 </x-m>
+      <y-m> -4.10765 </y-m>
+      <z-m>  0.17300</z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingLI.xml</path>
     <offsets>
-      <x-m> -7.391 </x-m>
-      <y-m> -5.437 </y-m>
-      <z-m>  0.190 </z-m>
+      <x-m> -5.30694 </x-m>
+      <y-m> -2.90435 </y-m>
+      <z-m>  0.17300 </z-m>
     </offsets>
   </model>
 
@@ -352,37 +334,37 @@
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingRI.xml</path>
     <offsets>
-      <x-m> -7.391 </x-m>
-      <y-m>  7.690 </y-m>
-      <z-m>  0.190 </z-m>
+      <x-m> -5.30694 </x-m>
+      <y-m>  2.90435 </y-m>
+      <z-m>  0.17300 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingRI.xml</path>
     <offsets>
-      <x-m> -7.391 </x-m>
-      <y-m>  5.437 </y-m>
-      <z-m>  0.190 </z-m>
+      <x-m> -5.30694 </x-m>
+      <y-m>  4.10765 </y-m>
+      <z-m>  0.17300</z-m>
     </offsets>
   </model>
 
-  <!-- Left exterior-->
+  <!-- Right exterior-->
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
-      <x-m> -6.547 </x-m>
-      <y-m> 15.705 </y-m>
-      <z-m>  0.683 </z-m>
+      <x-m> -4.85615 </x-m>
+      <y-m>  7.18546 </y-m>
+      <z-m>  0.43596 </z-m>
     </offsets>
   </model>
 
   <model>
     <path>Aircraft/Avro-Lancaster/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
-      <x-m> -6.547 </x-m>
-      <y-m> 13.452 </y-m>
-      <z-m>  0.683 </z-m>
+      <x-m> -4.85616 </x-m>
+      <y-m>  8.38876 </y-m>
+      <z-m>  0.43596 </z-m>
     </offsets>
   </model>
 
