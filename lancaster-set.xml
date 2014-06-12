@@ -14,6 +14,14 @@
       <cockpit type="int"> 1 </cockpit>
       <model type="int">   4 </model>
     </rating>
+    
+    <tags>
+        <tag>bomber</tag>
+        <tag>piston</tag>
+        <tag>retractable-gear</tag>
+        <tag>ww2</tag>
+        <tag>tail-dragger</tag>
+    </tags>
 
   </sim>
 
