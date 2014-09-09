@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>r1155.ac</path>
+
+  <animation>
+    <object-name>r1155</object-name>
+    <object-name>zone</object-name>
+    <object-name>poignees</object-name>
+    <object-name>visses</object-name>
+    <object-name>needle</object-name>
+    <object-name>marques</object-name>
+    <object-name>cadran</object-name>
+
+    <object-name>vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>vitre</object-name>
+  </animation>
+
+  <animation>
+    <type>material</type>
+    <object-name>zone</object-name>
+    <emission>
+      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
+    </emission>
+  </animation>
+
+<!--
+  <animation> 
+    <type>rotate</type>
+    <object-name>needle</object-name>
+    <property>?</property>
+    <center> 
+      <x-m>  0.108 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m> -0.005 </z-m>
+    </center>
+    <axis> 
+      <x> -1 </x>
+      <y>  0 </y>
+      <z>  0 </z>
+    </axis>
+  </animation>
+-->
+
+</PropertyList>

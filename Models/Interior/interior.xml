@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>inttournez</object-name>
+    <object-name>inttemp01</object-name>
+    <object-name>inttourvitres</object-name>
+    <object-name>inttourelle</object-name>
+    <object-name>inttourelletoit</object-name>
+    <object-name>planchet</object-name>
+    <object-name>meubles</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+    <object-name>intvitreavant</object-name>
+    <object-name>intvitrenez</object-name>
+    <object-name>intvitretourelle</object-name>
+    <object-name>intvitretourelletoit</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+    <object-name>intvitreavant</object-name>
+    <object-name>intvitrenez</object-name>
+    <object-name>intvitretourelle</object-name>
+    <object-name>intvitretourelletoit</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intvitres</object-name>
+    <object-name>intvitreavant</object-name>
+    <object-name>intvitrenez</object-name>
+    <object-name>intvitretourelle</object-name>
+    <object-name>intvitretourelletoit</object-name>
+  </animation>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -8.034 </x-m>
+      <y-m> -0.231 </y-m>
+      <z-m>  0.954 </z-m>
+      <roll-deg>    0 </roll-deg>
+      <pitch-deg>   0 </pitch-deg>
+      <heading-deg> 0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Planche de bord -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -8.998 </x-m>
+      <y-m>  0.000 </y-m>
+      <z-m>  0.661 </z-m>
+      <roll-deg>     0 </roll-deg>
+      <pitch-deg>    0 </pitch-deg>
+      <heading-deg>  0 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- R1155 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/r1155/r1155.xml</path>
+    <offsets>
+      <x-m> -6.203 </x-m>
+      <y-m> -0.329 </y-m>
+      <z-m>  0.784 </z-m>
+    </offsets>
+  </model>
+
+  <!-- T1154 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/t1154/t1154.xml</path>
+    <offsets>
+      <x-m> -6.203 </x-m>
+      <y-m> -0.328 </y-m>
+      <z-m>  0.958 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
+

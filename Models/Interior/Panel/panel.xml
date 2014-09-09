@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<PropertyList>
+
+   <path>panel.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.112 </x-m>
+      <y-m> -0.374 </y-m>
+      <z-m>  0.360 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AI -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/ai/ai.xml</path>
+    <offsets>
+      <x-m>  0.110 </x-m>
+      <y-m> -0.273 </y-m>
+      <z-m>  0.360 </z-m>
+    </offsets>
+  </model>
+
+  <!-- VSI -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/vsi/vsi.xml</path>
+    <offsets>
+      <x-m>  0.113 </x-m>
+      <y-m> -0.175 </y-m>
+      <z-m>  0.360 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ALT -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.110 </x-m>
+      <y-m> -0.374 </y-m>
+      <z-m>  0.260 </z-m>
+    </offsets>
+  </model>
+
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.112 </x-m>
+      <y-m> -0.273 </y-m>
+      <z-m>  0.260 </z-m>
+    </offsets>
+  </model>
+
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m>  0.111 </x-m>
+      <y-m> -0.175 </y-m>
+      <z-m>  0.260 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM 1 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/rpm/rpm-1.xml</path>
+    <offsets>
+      <x-m>  0.103 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m>  0.299 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM 2 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/rpm/rpm-2.xml</path>
+    <offsets>
+      <x-m> 0.103 </x-m>
+      <y-m> 0.040 </y-m>
+      <z-m> 0.299 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM 3 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/rpm/rpm-3.xml</path>
+    <offsets>
+      <x-m> 0.103 </x-m>
+      <y-m> 0.120 </y-m>
+      <z-m> 0.299 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM 4 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/rpm/rpm-4.xml</path>
+    <offsets>
+      <x-m> 0.103 </x-m>
+      <y-m> 0.200 </y-m>
+      <z-m> 0.299 </z-m>
+    </offsets>
+  </model>
+
+  <!-- BOOST 1 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/boost/boost-1.xml</path>
+    <offsets>
+      <x-m>  0.106 </x-m>
+      <y-m> -0.040 </y-m>
+      <z-m>  0.377 </z-m>
+    </offsets>
+  </model>
+
+  <!-- BOOST 2 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/boost/boost-2.xml</path>
+    <offsets>
+      <x-m> 0.106 </x-m>
+      <y-m> 0.040 </y-m>
+      <z-m> 0.377 </z-m>
+    </offsets>
+  </model>
+
+  <!-- BOOST 3 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/boost/boost-3.xml</path>
+    <offsets>
+      <x-m> 0.106 </x-m>
+      <y-m> 0.120 </y-m>
+      <z-m> 0.377 </z-m>
+    </offsets>
+  </model>
+
+  <!-- BOOST 4 -->
+  <model>
+    <path>Aircraft/Avro-Lancaster/Models/Interior/Panel/Instruments/boost/boost-4.xml</path>
+    <offsets>
+      <x-m> 0.106 </x-m>
+      <y-m> 0.200 </y-m>
+      <z-m> 0.377 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>
+
