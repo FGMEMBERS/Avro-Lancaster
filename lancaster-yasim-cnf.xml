@@ -8,6 +8,20 @@
     <flight-model>yasim</flight-model>
     <aero>lancaster-yasim</aero>
 
+    <tags>
+      <tag>avro</tag>
+      <tag>avro lancaster (yasim)</tag>
+      <tag>high-wing</tag>
+      <tag>tail-dragger</tag>
+     <tag>bomber</tag>
+      <tag>retractable-gear</tag>
+      <tag>four-engine</tag>
+      <tag>piston</tag>
+      <tag>propeller</tag>
+     <tag>1940s</tag>
+     <tag>ww2</tag>
+    </tags>
+
   </sim>
   
   <systems>
