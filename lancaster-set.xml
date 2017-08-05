@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- <PropertyList include="lancaster-jsbsim-cnf.xml"> -->
 <PropertyList include="lancaster-yasim-cnf.xml">
@@ -9,19 +9,11 @@
     <author>BARANGER Emmanuel</author>
 
     <rating>
-      <FDM type="int">     2 </FDM>
+      <FDM type="int">     3 </FDM>
       <systems type="int"> 1 </systems>
       <cockpit type="int"> 1 </cockpit>
       <model type="int">   4 </model>
     </rating>
-    
-    <tags>
-        <tag>bomber</tag>
-        <tag>piston</tag>
-        <tag>retractable-gear</tag>
-        <tag>ww2</tag>
-        <tag>tail-dragger</tag>
-    </tags>
 
   </sim>
 

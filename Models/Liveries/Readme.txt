@@ -15,9 +15,3 @@ Thanks to him
 These liveries were made by : Gary Brown (N-SCOT) 2012
 
 Thanks to him
-
-AvroEgypt : Avro Lancaster Royal Egyptian Air Force, 1950
-
-These liveries were made by : Herve 2012
-
-Thanks to him

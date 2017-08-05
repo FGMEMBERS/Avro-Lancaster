@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+************************************************************************
+Boeing lancaster
+May 2008 BARANGER Emmanuel
+************************************************************************
+-->
 
 <PropertyList include="lancaster-base.xml">
 
@@ -7,20 +13,6 @@
     <description>Avro Lancaster (YASim)</description>
     <flight-model>yasim</flight-model>
     <aero>lancaster-yasim</aero>
-
-    <tags>
-      <tag>avro</tag>
-      <tag>avro lancaster (yasim)</tag>
-      <tag>high-wing</tag>
-      <tag>tail-dragger</tag>
-     <tag>bomber</tag>
-      <tag>retractable-gear</tag>
-      <tag>four-engine</tag>
-      <tag>piston</tag>
-      <tag>propeller</tag>
-     <tag>1940s</tag>
-     <tag>ww2</tag>
-    </tags>
 
   </sim>
   
